@@ -94,5 +94,27 @@ module.exports = {
       chunks: ["index", "another"],
       filename: "ania.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/index.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/notatki.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "notatki.html",
+    }),new HtmlWebpackPlugin({
+      template: "./src/pages/form.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "form.html",
+    }),new HtmlWebpackPlugin({
+      template: "./src/pages/ciekawostki.html",
+      inject: true,
+      chunks: ["index", "another"],
+      filename: "ciekawostki.html",
+    }),
   ],
 };

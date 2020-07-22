@@ -1,0 +1,22 @@
+.navigation {
+    padding: 16px;
+    display: none;
+    &__link {
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+      display: block;
+      border-radius: 60px;
+      width: 300px;
+      background: aliceblue;
+    }
+    &__link:focus {
+      border: 3px dotted rgba(69, 212, 100, 0.671);
+    }
+    &__link:hover {
+      color: rgba(179, 98, 211, 0.555);
+    }
+    &--open {
+      display: block;
+    }
+  }

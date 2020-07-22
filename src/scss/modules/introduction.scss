@@ -1,0 +1,45 @@
+.introduction {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-style: italic;
+    max-height: 1000px;
+    left: 60px;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    grid-area: introduction;
+    &__description {
+      text-align: left;
+      line-height: 1.4;
+    }
+    &__header {
+      text-align: center;
+    }
+    &__image {
+      display: flex;
+      flex-shrink: 0;
+      padding: 5px 10px;
+      margin: 5px;
+  
+      width: 100%;
+      height: 160px;
+    }
+    &::after {
+      content: "";
+      display: block;
+      background: rgba(53, 27, 49, 0.712);
+      width: 15px;
+      height: 15px;
+    }
+    &::before {
+      content: "";
+      display: block;
+      background: rgba(236, 139, 223, 0.712);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+  }

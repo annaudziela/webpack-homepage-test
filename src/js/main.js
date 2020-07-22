@@ -1,7 +1,3 @@
-import '../scss/main.scss';
-import moment from 'moment';
-console.log(moment().startOf('day').fromNow());
-
 
 
 const firstName = 'Ania';

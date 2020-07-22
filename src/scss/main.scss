@@ -1,13 +1,179 @@
-@import "~normalize.css";
+@import "modules/introduction.scss";
+@import "modules/navigation.scss";
+@import "modules/week-navigation.scss";
 
-@import "_variables";
-@import "modules/hello.scss";
+html {
+  box-sizing: border-box;
+}
 
+*,
+* :after,
+*:before {
+  box-sizing: inherit;
+}
+
+article:hover {
+  background: rgba(125, 184, 107, 0.616);
+}
+
+.back-to-top {
+  color: #a841a0;
+}
 body {
-  background: rgba(201, 169, 127, 0.829);
-  color: #fff;
+  font-family: "Comic Neue", cursive;
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  max-width: 1100px;
+  margin: 0px auto;
+  &__item {
+    display: block;
+    width: 100%;
+  }
+  &__item:focus {
+    color: rgba(83, 150, 44, 0.685);
+    border: 4px dotted yellow;
+  }
+}
+
+.form-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  width: 800px;
+  margin: 0px auto 0;
+  background: #463844b7;
+}
+
+h1 {
+  color: #52274e;
+  text-align: center;
+  border: cornsilk 10px dotted
+  
+}
+header a {
+  color: #2b193d;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  border: none;
+  background: none;
+}
+
+.label {
+  &::before {
+    content: "🧐";
+  }
+  &::after {
+    content: "Dzięki!";
+  }
+}
+
+.main-page {
+  display: grid;
+  grid-template-areas:
+    "main-page__header main-page__header"
+    "introduction why"
+    "main-footer main-footer";
+  grid-template-columns: 300px 1fr;
+  width: 800px;
+  margin: 60px auto 0;
+  &__header {
+    grid-area: main-page__header;
+  }
+}
+
+.main-notes {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+.main-footer {
+  text-align: center;
+  background-color: rgba(60, 27, 63, 0.185);
+  padding: 20px;
+  border: 5px;
+  border-style: dotted;
+  border-color: rgb(199, 141, 199);
+  margin: 60px auto;
+  bottom: 10px;
+  grid-area: main-footer;
+}
+
+
+section,
+article {
+  background: rgba(143, 111, 124, 0.2);
+  padding: 16px;
+  margin: 0 0 40px;
+  overflow: visible;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#textarea {
+  display: block;
+  width: 100%;
+}
+.top {
+  text-align: center;
+  background: rgba(139, 103, 146, 0.534);
+  min-height: 60px;
+  position: ab;
+  top: 0;
+  width: 100%;
+}
+
+.top__header {
+  color: rgb(59, 64, 66);
+  text-align: center;
+}
+
+
+
+.why {
+  grid-area: why;
+  &__article {
+    &::before {
+      content: "";
+      display: block;
+      background: rgba(236, 139, 223, 0.712);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+    &::after {
+      content: "";
+      display: block;
+      background: rgba(53, 27, 49, 0.712);
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.klasa-z-js {
+  background: blue;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .navigation {
+    padding: 20px;
+    right: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+  }
 }
