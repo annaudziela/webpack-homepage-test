@@ -1,7 +1,10 @@
 import '../scss/main.scss';
 import moment from 'moment';
-console.log(moment().startOf('day').fromNow());
 
+console.log(moment().startOf('day').fromNow());
+const startOfDay = moment().startOf('day').fromNow();
+const timePlaceholder = document.querySelector('.time--js');
+timePlaceholder.innerHTML = startOfDay; 
 
 
 const firstName = 'Ania';

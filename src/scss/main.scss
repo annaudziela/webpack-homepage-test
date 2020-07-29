@@ -1,6 +1,7 @@
 @import "modules/introduction.scss";
 @import "modules/navigation.scss";
 @import "modules/week-navigation.scss";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap');
 
 html {
   box-sizing: border-box;
@@ -20,7 +21,7 @@ article:hover {
   color: #a841a0;
 }
 body {
-  font-family: "Comic Neue", cursive;
+  font-family: 'Josefin Sans', sans-serif;
   background: #fefefe;
   display: flex;
   flex-direction: column;
@@ -34,7 +35,7 @@ body {
   }
   &__item:focus {
     color: rgba(83, 150, 44, 0.685);
-    border: 4px dotted yellow;
+    border: 4px dotted rgba(152, 207, 138, 0.404);
   }
 }
 
@@ -129,6 +130,7 @@ article {
   position: ab;
   top: 0;
   width: 100%;
+  
 }
 
 .top__header {

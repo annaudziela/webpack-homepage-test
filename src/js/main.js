@@ -1,5 +1,3 @@
-
-
 const firstName = 'Ania';
 const age = 26;
 const profession = 'tłumacz języka rosyjskiego'
