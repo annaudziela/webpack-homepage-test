@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](./src/gh/cover_gh.png)
 
 # My very first project 
 
