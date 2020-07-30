@@ -1,12 +1,12 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# My very first project 
 
-Simple toolkit for your static websites development.
+Simple, ugly, but **my** first website created basing on *WTF co ten frontend* course.
 
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Just click and check how it works. Don't be scared - I checked the acquired knowledge on this project, so don't be surprised by the number of colors, effects and random code!
 
 ## Available scripts
 
