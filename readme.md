@@ -6,7 +6,7 @@ Simple, ugly, but **my** first website created basing on *WTF co ten frontend* c
 
 ## How to use it?
 
-Just click and check how it works. Don't be scared - I checked the acquired knowledge on this project, so don't be surprised by the number of colors, effects and random code!
+Just click and check how it works. Don't be scared - I checked the acquired knowledge on this project, so don't be surprised by the number of colors, effects and random code! 🙈
 
 ## Available scripts
 
