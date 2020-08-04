@@ -101,3 +101,4 @@ hamburger.addEventListener('click' , () => {
     nav.classList.toggle('navigation--open');
 })
 
+document.cookie = 'name = ania'
